@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <radialGradient id="aurora-gradient" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+      <stop offset="0%" stop-color="#39ff14" />
+      <stop offset="25%" stop-color="#43a047" />
+      <stop offset="50%" stop-color="#1abc9c" />
+      <stop offset="75%" stop-color="#6c3483" />
+      <stop offset="100%" stop-color="#001f4d" />
+    </radialGradient>
+  </defs>
+  <rect width="64" height="64" rx="8" fill="#101820" />
+  <circle cx="32" cy="32" r="24" fill="url(#aurora-gradient)" opacity="0.8" />
+  <path d="M32 16 C22 26 18 40 32 48 C46 40 42 26 32 16" fill="#101820" opacity="0.7" />
+  <path d="M32 18 C24 26 22 36 32 46 C42 36 40 26 32 18" fill="none" stroke="#39ff14" stroke-width="1" opacity="0.9" />
+  <path d="M32 20 C26 28 25 34 32 44 C39 34 38 28 32 20" fill="none" stroke="#1abc9c" stroke-width="0.75" opacity="0.8" />
+</svg>

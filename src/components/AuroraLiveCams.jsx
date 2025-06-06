@@ -6,13 +6,13 @@ const AuroraLiveCams = () => {
   const borealCams = useMemo(() => [
     {
       name: 'Abisko, Suécia - Aurora (High Q) Webcam',
-      url: `https://player.twitch.tv/?channel=lightsoverlaplandlive&parent=${window.location.hostname}&muted=true`,
+      url: `https://player.twitch.tv/?channel=lightsoverlaplandlive&parent=aurora-s2vr.onrender.com&muted=true`,
       site: 'Lights Over Lapland',
       description: 'Câmera ao vivo de Abisko, Suécia, fornecida por Lights Over Lapland.'
     },
     {
       name: 'Abisko, Suécia - Aurora (2) Webcam',
-      url: `https://player.twitch.tv/?channel=lightsoverlapland&parent=${window.location.hostname}&muted=true`,
+      url: `https://player.twitch.tv/?channel=lightsoverlapland&parent=aurora-s2vr.onrender.com&muted=true`,
       site: 'Lights Over Lapland',
       description: 'Câmera ao vivo de Abisko, Suécia, fornecida por Lights Over Lapland.'
     },

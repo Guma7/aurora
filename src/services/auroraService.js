@@ -1,8 +1,6 @@
 export const fetchAuroraData = async () => {
-  // Determinar a URL da API com base no ambiente
-  const apiUrl = process.env.NODE_ENV === 'production'
-    ? '/api/aurora-data' // URL relativa em produção
-    : 'http://localhost:3001/api/aurora-data'; // URL de desenvolvimento local
+  // URL da API em produção
+  const apiUrl = 'https://auroraapi-11yt.onrender.com/api/aurora-data';
     
   const response = await fetch(apiUrl);
   return await response.json();

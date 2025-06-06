@@ -18,14 +18,13 @@ Este é o frontend da aplicação Aurora, responsável por exibir dados de auror
 3. Crie um arquivo `.env` com as seguintes variáveis:
    ```
    PORT=62421
-   REACT_APP_API_URL=http://localhost:3001/api/aurora-data
-   REACT_APP_ENV=development
+   REACT_APP_API_URL=https://auroraapi-11yt.onrender.com/api/aurora-data
+   REACT_APP_ENV=production
    ```
-4. Inicie o servidor de desenvolvimento:
+4. Inicie o servidor:
    ```
    npm start
    ```
-5. Acesse `http://localhost:62421` no seu navegador
 
 ## Construção para Produção
 
@@ -58,5 +57,5 @@ Este frontend está configurado para ser facilmente implantado no Netlify ou Ren
 
 No Netlify ou Render, configure as seguintes variáveis de ambiente:
 
-- `REACT_APP_API_URL=/api/aurora-data` (para usar o proxy configurado)
+- `REACT_APP_API_URL=https://auroraapi-11yt.onrender.com/api/aurora-data`
 - `REACT_APP_ENV=production`

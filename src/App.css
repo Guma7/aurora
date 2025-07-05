@@ -3,6 +3,21 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   background: #101820;
   color: #fff;
+  user-select: text;           /* Permite seleção de texto */
+  -webkit-user-select: text;
+  -moz-user-select: text;
+  -ms-user-select: text;
+}
+
+/* Remove focus outline e cursor de edição */
+* {
+  outline: none;
+  caret-color: transparent;    /* Remove a barrinha piscante */
+}
+
+/* Cursor padrão para elementos não editáveis */
+*:not(input):not(textarea):not([contenteditable]) {
+  cursor: default;
 }
 
 .app {
